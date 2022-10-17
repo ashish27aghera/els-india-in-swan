@@ -1,0 +1,97 @@
+.sticky-wrapper {
+    height: auto !important;
+}
+
+.menu_area .navbar-brand img {
+    width: 120px;
+}
+
+.hero-single-slide {
+    height: 100vh;
+    background-size: 120% 120%;
+    background-position: center center;
+    animation: shrink linear 5s infinite alternate;
+}
+
+@keyframes shrink {
+    0% {
+        background-size: 120% 120%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
+
+.wellcome_heading_text>h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.wellcome_heading_text>h5 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.single-service-area {
+    height: 580px;
+    max-height: 580px;
+}
+
+.welcome_slides_area .owl-prev {
+    left: 15px;
+}
+
+.welcome_slides_area .owl-next {
+    right: 15px;
+}
+
+.welcome_slides_area .owl-prev,
+.welcome_slides_area .owl-next {
+    color: rgb(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 100%;
+}
+
+.welcome_slides_area .owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff
+}
+
+.privacy-policy {
+    padding-top: 30px;
+}
+
+.privacy-policy .privacy-content {
+    box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.privacy-policy .privacy-content p:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-policy .privacy-content h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.privacy-policy .privacy-content p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color: #494e5c;
+}
+
+.site-footer-credit .footer .foot-2 a {
+    color: #000;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px;
+}
