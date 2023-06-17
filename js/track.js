@@ -36,6 +36,8 @@ $(document).ready(function($) {
             $('.tracking-data').html('');
             return false;
         }
+    } else {
+        return false;
     }
     $.getJSON('http://software.swanexpresslogistics.in/api/tracking_api/get_tracking_data?' + searchtype + '=' + tracking_no + '&customer_code=superadmin&company=SWAN-EXPRESS-LOGISTICS&api_company_id=18', function(data) {
         $('.tracking-data').html('');
